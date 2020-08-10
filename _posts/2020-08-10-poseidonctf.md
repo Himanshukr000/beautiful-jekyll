@@ -2,12 +2,12 @@
 layout: post
 published: true
 title: PoseidonCTF
-image: 'https://i.ibb.co/KLj3R6H/LOGO-PNG.png'
+image: /img/poseidonctf.png
 date: '2020-08-10'
 ---
-Another CTF writeup from PoseidonCTF by @[sousselovectf](https://twitter.com/sousselovectf)
+Another CTF writeup from PoseidonCTF by [@sousselovectf](https://twitter.com/sousselovectf)
 
-[https://pbs.twimg.com/media/Ee1RIxGXYAIDe5z?format=jpg&name=small](https://pbs.twimg.com/media/Ee1RIxGXYAIDe5z?format=jpg&name=small)
+![https://pbs.twimg.com/media/Ee1RIxGXYAIDe5z?format=jpg&name=small](https://pbs.twimg.com/media/Ee1RIxGXYAIDe5z?format=jpg&name=small)
 
 ## DB64
 
@@ -17,13 +17,13 @@ A memory forensics challenge. Starting off with usual Volatility `imageinfo` to 
 
 ![https://imgur.com/jgC4D04.png](https://imgur.com/jgC4D04.png)
 
-Now as the description said about passwords , Firefox and Google products, So used the obvious plugins. (`chromehistory`, `firefoxhistory` and the well known `mimikatz` 😛)
+Now as the description said about passwords , Firefox and Google products, So used the obvious plugins. (`chromehistory`, `firefoxhistory` and the well known `mimikatz` :P)
 
 ![https://imgur.com/OR8SVf7.png](https://imgur.com/OR8SVf7.png)
 
 Chrome gave a bunch of googledrive links 
 
-[https://drive.google.com/file/d/1jYpvi9Va8be022G1SL4xUpEmZoknveTd/view](https://drive.google.com/file/d/1jYpvi9Va8be022G1SL4xUpEmZoknveTd/view) (A encrypted keepass db). Also Firefox plugin gave no output :( and mimikatz gave the password for the user `PoseidonCTF:dVi29Tv8` . (password will be of use in later part 😄)
+[https://drive.google.com/file/d/1jYpvi9Va8be022G1SL4xUpEmZoknveTd/view](https://drive.google.com/file/d/1jYpvi9Va8be022G1SL4xUpEmZoknveTd/view) (A encrypted keepass db). Also Firefox plugin gave no output :( and mimikatz gave the password for the user `PoseidonCTF:dVi29Tv8` . (password will be of use in later part :ok)
 
 ![https://imgur.com/f3vWmkB.png](https://imgur.com/f3vWmkB.png)
 
@@ -33,7 +33,7 @@ But this password was not enough to unlock the keepass db. So on further play wi
 
 `I cant paste the binary in recyle bin` . Now this part contained references to `pastebin` (the paste and the binary part). Also the password above looked same as pastebin's bin ID `dVi29Tv8`.
 
-And it was correct 😃 [](https://pastebin.com/dVi29Tv8).
+And it was correct :wink [](https://pastebin.com/dVi29Tv8).
 
 [https://pastebin.com/dVi29Tv8](https://pastebin.com/dVi29Tv8)
 
