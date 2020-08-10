@@ -11,9 +11,7 @@ Another CTF writeup from PoseidonCTF by [@sousselovectf](https://twitter.com/sou
 
 ## DB64
 
-We (ByteForc3) got the first blood on this challenge.
-
-A memory forensics challenge. Starting off with usual Volatility `imageinfo` to get the profile.
+We (ByteForc3) got the first blood on this challenge. It was a memory forensics challenge. Starting off with usual Volatility `imageinfo` to get the profile.
 
 ![https://imgur.com/jgC4D04.png](https://imgur.com/jgC4D04.png)
 
