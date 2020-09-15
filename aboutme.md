@@ -2,7 +2,7 @@
 layout: page
 title: About me
 subtitle: Why you'd want to go on a date with me
-bigimg: https://image6.uhdpaper.com/wallpaper-hd/hashira-all-members-kimetsu-no-yaiba-characters-uhdpaper.com-hd-6.1449.jpg
+bigimg: /img/demon_slayer_sun_walk_4k_5k_hd.jpg
 ---
   
   Here's a little about me ;)
