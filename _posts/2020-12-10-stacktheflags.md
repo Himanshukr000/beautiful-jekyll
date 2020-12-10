@@ -14,6 +14,8 @@ New day, New CTF and New Writeup..... Hahahaha
 ![image](https://cdn.discordapp.com/attachments/773063605142552596/785159129223266315/unknown.png)
 
 ### Scoreboard FLEX ^^ 
+
+
 #### [ByteForc3](https://ctftime.org/team/71631) ftw
 
 
@@ -24,7 +26,7 @@ New day, New CTF and New Writeup..... Hahahaha
 
 Just another typical Memory Forensics challenge. So starting with volatility `imageinfo`.
 
-![image](/img/STACKTHEFLAGS/2.png)
+![image](/img/STACKTHEFLAGS/2.PNG)
 
 and next was `pslist` to check the running process.
 
@@ -32,7 +34,7 @@ and next was `pslist` to check the running process.
 
 Now seeing chrome running `chromehistory` was the next move.
 
-![image](/img/STACKTHEFLAGS/4.png)
+![image](/img/STACKTHEFLAGS/4.PNG)
 
 The highlighted part is the suspicious link that the user visited.
 It was an image file:
@@ -60,7 +62,7 @@ And this gave the flag right away.
 
  `zsteg`  also gave the flag.
 
- ![image](/img/STACKTHEFLAGS/5.png)
+ ![image](/img/STACKTHEFLAGS/5.PNG)
 
  ```govtech-csg{m3m0ry_R3dGr33nBlu3z}```
 
