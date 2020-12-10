@@ -3,7 +3,7 @@ layout: post
 published: true
 title: STACKTHEFLAGS
 date: '2020-12-10'
-image: /img/STACKTHEFLAGS/logo.ico
+image: /img/STACKTHEFLAGS/logo.png
 ---
 # STACK THE FLAGS
 
