@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: STACKTHEFLAGS
 date: '2020-12-10'
 image: /img/STACKTHEFLAGS/logo.png
